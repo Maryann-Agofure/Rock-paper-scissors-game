@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Manrope&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+     background-color: rgb(224, 253, 247);
+ }
+ header {
+     
+     background-color: lightgray;
+     font-family: Asap, sans-serif;
+     
+ }
+ h1 {
+     text-align: center;
+ }
+ .score-board {
+     border: 2px solid lightgrey;
+     width: 300px;
+     height: 115px;
+     margin: 10px auto;
+     
+     text-align: center;
+     border-radius: 5px;
+     padding: 5px 5px;
+     font-family: sans-serif;
+     position: relative;
+ }
+ .badge {
+     background-color: lightsalmon;
+     border: 1px solid gray;
+     width: 85px;
+     margin: 0 auto;
+     
+     height: 20px;
+     font-size: 20px;
+    
+ }
+ #badge-user {
+     position: absolute;
+     left: -55px;
+     top: 55px;
+ }
+ #badge-comp {
+    position: absolute;
+    right: -55px;
+    top: 55px;
+}
+.user-label {
+    margin: 0px auto;
+    font-size: 120px;
+}
+.computer-label {
+    margin: 0px auto;
+    font-size: 120px;
+}
+.results>p {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+
+}
+.choices {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+}
+
+.choice {
+  display: inline-block; 
+  margin: 0 10px; 
+  transition: all 0.7s ease;
+  
+}
+.choice:hover {
+    background-color: indianred;
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.actions {
+    position: absolute;
+    bottom: 10%;
+    padding: 6px 400px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+.greenborder {
+    border: 2px solid green;
+    box-shadow: 2px 2px 1px green;
+}
+..yellowborder {
+    border: 2px solid yellow;
+    box-shadow: 2px 2px 1px yellow;
+}
+.pinkborder {
+    border: 2px solid pink;
+    box-shadow: 2px 2px 1px pink;
+}
+
+
+
